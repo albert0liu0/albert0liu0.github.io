@@ -10,12 +10,21 @@
 #header a:visited{
 	color:#000;
 }
-#header>a:hover{
+#header>div{
+	display:inline-block;
+}
+#headerLeft>a{
+	margin-left:5pt;
+}
+#headerRight>a{
+	margin-left:5pt;
+}
+	
+#header>div>a:hover{
 	background-color:rgba(255,255,255,0.2);
 }
-#header>a{
+#header>div>a{
 	position:relative;
-	margin-left:5pt;
 	background-color:rgba(64,64,64,0.6);
 	color:#000;
 	text-decoration:none;

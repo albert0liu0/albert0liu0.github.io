@@ -3,7 +3,8 @@
 	width:60%;
 	padding-left:20%;
 	padding-right:20%;
-	margin-top:60px;
+	padding-top:60px;
+	padding-bottom:150px;
 }
 html{
 	margin:0;
@@ -26,6 +27,7 @@ input{
 	font-size:1.0em;
 	background-color:black;
 	color:#AAA;
+	padding-left:0.5em;
 }
 input:focus{
 	outline:none;

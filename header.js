@@ -1,6 +1,10 @@
 window.addEventListener('load',function(){
 	document.head.appendChild(cssDiv('header.css'))
 	document.head.appendChild(cssDiv('https://fonts.googleapis.com/icon?family=Material+Icons'))
+	var left=document.createElement('div')
+	left.id='headerLeft'
+	var right=document.createElement('div')
+	right.id='headerRight'
 	var header=document.getElementById('header')
 	var home=document.createElement('a')
 	home.className='material-icons'
@@ -26,12 +30,14 @@ window.addEventListener('load',function(){
 	login.className='material-icons'
 	login.innerHTML='exit_to_appLOGIN'
 	login.href='login.html'
-	header.appendChild(home)
-	header.appendChild(top)
-	header.appendChild(about)
-	header.appendChild(album)
-	header.appendChild(register)
-	header.appendChild(login)
+	left.appendChild(home)
+	left.appendChild(top)
+	left.appendChild(about)
+	left.appendChild(album)
+	right.appendChild(register)
+	right.appendChild(login)
+	header.appendChild(left)
+	header.appendChild(right)
 })
 function cssDiv(href){
 	var css=document.createElement('link')

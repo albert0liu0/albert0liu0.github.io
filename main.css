@@ -5,8 +5,12 @@
 	padding-right:20%;
 	margin-top:60px;
 }
+html{
+	height:100%;
+}
 body{
 	margin:0;
+	height:100%;
 	padding:0;
 	position:relative;
 	background: -webkit-gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));

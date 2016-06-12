@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!doctype html>
+</body>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Index</title>
+	<script src=./main.js></script>
+	<script src=./header.js></script>
+	<script src=./page.js></script>
+	<script src="./register.js"></script>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<div id=header></div>
+<div id=content>
+	<h1>Register</h1>
+	Username:
+	<input type="text" id="username" name="username" placeholder="username">
+	<input type="button" id="check" name="check" value="Check">
+	<span id="valid_username" name="valid_username">
+	</span><br>
+	<span id="check_username" name="check_username">
+		Please press check to check whether the username is used.<br>
+	</span><br>
+	Nickname:
+	<input type="text" id="nickname" name="nickname" placeholder="Nickname"><br><br>
+	Password:
+	<input type="password" id="password" name="password" placeholder="password">
+	<span id="valid_password" name="valid_password"> </span><br><br>
+	Confirm Password:
+	<input type="password" id="repassword" name="repassword" placeholder="confirm password">
+	<span id="valid_repassword" name="valid_repassword"> </span><br><br>
+	<input type="button" id="register" name="register" value="Register">
+	<span id="status_register" name="status_register"></span>
+</div>
+<div id=footer></div>
+</body>
+</html>

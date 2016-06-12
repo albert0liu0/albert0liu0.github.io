@@ -1,7 +1,12 @@
+body{
+}
+#container{
+	min-height:100%;
+	position:relative;
+	padding-bottom:100px;
+}
 #footer{
 	position:absolute;
-	
-	margin-top:20px;
 	background-color:rgba(100,100,100,0.2);
 	width:60%;
 	padding-left:20%;

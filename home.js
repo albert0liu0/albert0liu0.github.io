@@ -12,7 +12,7 @@ window.addEventListener('load',function(){
 		<p>　　雖然在 About 中有對本網站的介紹，但該處主要是介紹本網站的原則，此文章將介紹本網站的架構。</p>
 		<p><b>　　<a href=home.html>home.html</a></b></p>
 			<p>　　網站首頁，顯示文章。</p>
-			<p>　　以 page.js 將 JSON 轉成 DOM 。</p>
+			<p>　　以 page.js 將 string 轉成 DOM element 。</p>
 		<p><b>　　<a href=about.html>about.html</a></b></p>
 			<p>　　介紹我對本網站的追求與原則。</p>
 		<p><b>　　<a href=handsome.html>handsome.html</a></b></p>
@@ -28,7 +28,7 @@ window.addEventListener('load',function(){
 		<p><b>　　header.js footer.js</b></p>
 			<p>　　在網頁中嵌入 header 及 footer 。</p>
 		<p><b>　　後端部份</b></p>
-			<p>　　完成部份，以 node.js 實做。存放於 <a href="https://github.com/albert0liu0/HandsomeBlog">https://github.com/albert0liu0/HandsomeBlog</a> 中。</p>
+			<p>　　完成部份，以 Node.js 實做。存放於 <a href="https://github.com/albert0liu0/HandsomeBlog">https://github.com/albert0liu0/HandsomeBlog</a> 中。</p>
 		`))
 		
 	page.push(new Page('2016.04.30',`

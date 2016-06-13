@@ -8,7 +8,6 @@ window.addEventListener('load',function(){
 	})())
 	var content=document.getElementById('content')
 	var page=[]
-<<<<<<< HEAD
 	page.push(new Page('About this site',`
 		<p>　　雖然在 About 中有對本網站的介紹，但該處主要是介紹本網站的原則，此文章將介紹本網站的架構。</p>
 		<p><b>　　<a href=home.html>home.html</a></b></p>
@@ -32,8 +31,6 @@ window.addEventListener('load',function(){
 			<p>　　完成部份，以 node.js 實做。存放於 <a href="https://github.com/albert0liu0/HandsomeBlog">https://github.com/albert0liu0/HandsomeBlog</a> 中。</p>
 		`))
 		
-=======
->>>>>>> 6cb65c37621ed90e813d629cca155ce0661ff598
 	page.push(new Page('2016.04.30',`
 		<p>　　今天凌晨做了非常非常奇怪的夢。</p>
 		<p>　　我在跟B搭飛機，結果飛機起飛了沒幾分鐘，機長就宣布必須迫降。在機長宣布迫降之後，每位乘客必須在某些提示下，讓某個程式計算出某個密碼，將密碼紀錄後輸入到面前的電腦的編輯器內，才能獲救，否則就會死掉。密碼在計算之後，會每行一個字元的顯示在command line上。Command line的高度有限制，所以每輸出幾個字元就要把那些字元盡快的貼進編輯器內，否則會溢出消失。偏偏那台電腦裡面的編輯器只有vim，因此乘客幾乎都死光了，只剩下我和B。後來飛機迫降到一條很寬的大馬路上，跟著其他車一起跑，機頭跟機翼還會把其他車子掃飛。我跟B下飛機後拔腿狂奔，以免被媒體採訪而被曲解原意斷章取義。</p>

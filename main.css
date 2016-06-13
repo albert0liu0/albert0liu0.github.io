@@ -19,7 +19,7 @@ body{
 	background: -moz-gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
 	background: -o-gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
 	background: gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
-	font-family: serif, KaiTi, AR PL UKai CN;
+	font-family: serif, 標楷體, AR PL UKai CN;
 	font-size: 1.2em;
 	color:#AAAAAA;
 }

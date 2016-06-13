@@ -38,6 +38,10 @@ window.addEventListener('load',function(){
 	account.appendChild(login)
 	header.appendChild(link)
 	header.appendChild(account)
+	var time=document.createElement('div')
+	time.id='headerTime'
+	startTime(time)
+	header.appendChild(time)
 })
 function cssDiv(href){
 	var css=document.createElement('link')
@@ -45,4 +49,20 @@ function cssDiv(href){
 	css.type='text/css'
 	css.href=href
 	return css
+}
+function startTime(div){
+	var now=new Date()
+	div.innerHTML=''+
+		pad(2,''+now.getHours())+':'+
+		pad(2,''+now.getMinutes())+':'+
+		pad(2,''+now.getSeconds())+'.'+
+		pad(3,''+now.getMilliseconds())
+	window.setTimeout(function(){startTime(div)},61)
+}
+	
+function pad(digit,string){
+	while(string.length<digit){
+		string='0'+string
+	}
+	return string
 }

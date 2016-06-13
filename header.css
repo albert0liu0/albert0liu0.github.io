@@ -19,7 +19,14 @@
 #headerAccount>a{
 	margin-left:5pt;
 }
-	
+#headerTime{
+	font-family:monospace;
+	position:relative;
+	float:right;
+	margin-right:20pt;
+	font-size:16pt;
+	padding-top:7pt;
+}
 #header>div>a:hover{
 	background-color:rgba(255,255,255,0.2);
 }

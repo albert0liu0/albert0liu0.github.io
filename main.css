@@ -19,7 +19,7 @@ body{
 	background: -moz-gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
 	background: -o-gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
 	background: gradient(linear,left top,right top,from(#333),color-stop(0.2,#000),color-stop(0.8,#000),to(#333));
-	font-family: font_serif;
+	font-family: serif, KaiTi, AR PL UKai CN;
 	font-size: 1.2em;
 	color:#AAAAAA;
 }
@@ -48,7 +48,6 @@ p{
 	color:#CCC;
 	text-shadow: 0 0 10px white;
 }
-<<<<<<< HEAD
 a{
 color:#AAA;
 }

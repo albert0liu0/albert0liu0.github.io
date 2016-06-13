@@ -13,10 +13,10 @@
 #header>div{
 	display:inline-block;
 }
-#headerLeft>a{
+#headerLink>a{
 	margin-left:5pt;
 }
-#headerRight>a{
+#headerAccount>a{
 	margin-left:5pt;
 }
 	

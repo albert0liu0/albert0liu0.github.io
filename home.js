@@ -28,7 +28,7 @@ window.addEventListener('load',function(){
 		<p><b>　　header.js footer.js</b></p>
 			<p>　　在網頁中嵌入 header 及 footer 。</p>
 		<p><b>　　後端部份</b></p>
-			<p>　　完成部份，以 Node.js 實做。存放於 <a href="https://github.com/albert0liu0/HandsomeBlog">https://github.com/albert0liu0/HandsomeBlog</a> 中。</p>
+			<p>　　完成部份，以 Node.js 實作。存放於 <a href="https://github.com/albert0liu0/HandsomeBlog">https://github.com/albert0liu0/HandsomeBlog</a> 中。</p>
 		`))
 		
 	page.push(new Page('2016.04.30',`
